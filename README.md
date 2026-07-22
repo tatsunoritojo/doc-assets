@@ -8,6 +8,24 @@ README・サービスフロー図・設計メモ向けの**横断アイコンキ
 
 `.private-ai-assets`（生成画像）とは別物。
 
+## Phase 1 追加（2026-07-23）
+
+| パス | 内容 |
+|------|------|
+| `badges/static/` | 静的 badge SVG 40 |
+| `snippets/badges.md` | Shields 動的 + 静的の貼り方・リポ別プリセット |
+| `templates/flows/` | サービスフロー雛形 10 |
+| `tokens/mermaid.md` | Mermaid classDef 共通 |
+| `tokens/colors.json` | 色トークン |
+
+### 最短ルート
+
+1. バッジ: [snippets/badges.md](./snippets/badges.md)
+2. フロー図: [templates/flows/](./templates/flows/)
+3. 色揃え: [tokens/mermaid.md](./tokens/mermaid.md)
+4. ブランド: [preview-brands.html](./preview-brands.html)
+
+
 ## 置き場所
 
 ```

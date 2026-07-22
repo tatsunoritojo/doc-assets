@@ -1,0 +1,27 @@
+{
+  "diagram": {
+    "actor": { "fill": "#EEF2FF", "stroke": "#6366F1", "text": "#111111" },
+    "app": { "fill": "#E8F1FF", "stroke": "#3B82F6", "text": "#111111" },
+    "data": { "fill": "#ECFDF5", "stroke": "#10B981", "text": "#111111" },
+    "external": { "fill": "#FFF7ED", "stroke": "#F59E0B", "text": "#111111" },
+    "danger": { "fill": "#FEF2F2", "stroke": "#EF4444", "text": "#111111" },
+    "muted": { "fill": "#F8FAFC", "stroke": "#94A3B8", "text": "#334155" }
+  },
+  "semantic": {
+    "success": "#10B981",
+    "warn": "#F59E0B",
+    "error": "#EF4444",
+    "info": "#3B82F6",
+    "neutral": "#64748B",
+    "ink": "#111827"
+  },
+  "brands": {
+    "vercel": "#000000",
+    "neon": "#00E599",
+    "line": "#00C300",
+    "claude": "#D97757",
+    "cloudflare": "#F38020",
+    "google_blue": "#4285F4",
+    "github": "#181717"
+  }
+}

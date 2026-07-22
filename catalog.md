@@ -1,14 +1,15 @@
 # catalog
 
-取得・カラー化 2026-07-23。
-**合計: 431 SVG**
+更新 2026-07-23 Phase1。
+**アセット行数カウント対象: 471 SVG** + フロー md
 
 
-- **`icons/brands/`** = 本線（カラー）
+- **`icons/brands/`** = カラー本線
 - **`icons/brands-mono/`** = 単色控え
-- Lucide 系（actors/flow/…）= 線画単色のまま
+- **`badges/static/`** = 静的バッジ
+- **`templates/flows/`** = フロー雛形
 
-## actors (10)
+## icons/actors (10)
 
 | name | path |
 |------|------|
@@ -23,7 +24,7 @@
 | `user` | `icons/actors/user.svg` |
 | `users` | `icons/actors/users.svg` |
 
-## brands (184)
+## icons/brands (184)
 
 | name | path |
 |------|------|
@@ -212,7 +213,7 @@
 | `zenn` | `icons/brands/zenn.svg` |
 | `zoom` | `icons/brands/zoom.svg` |
 
-## brands-mono (184)
+## icons/brands-mono (184)
 
 | name | path |
 |------|------|
@@ -401,7 +402,7 @@
 | `zenn` | `icons/brands-mono/zenn.svg` |
 | `zoom` | `icons/brands-mono/zoom.svg` |
 
-## data (10)
+## icons/data (10)
 
 | name | path |
 |------|------|
@@ -416,7 +417,7 @@
 | `table` | `icons/data/table.svg` |
 | `webhook` | `icons/data/webhook.svg` |
 
-## flow (13)
+## icons/flow (13)
 
 | name | path |
 |------|------|
@@ -434,7 +435,7 @@
 | `split` | `icons/flow/split.svg` |
 | `workflow` | `icons/flow/workflow.svg` |
 
-## infra (9)
+## icons/infra (9)
 
 | name | path |
 |------|------|
@@ -448,7 +449,7 @@
 | `terminal` | `icons/infra/terminal.svg` |
 | `wifi` | `icons/infra/wifi.svg` |
 
-## status (8)
+## icons/status (8)
 
 | name | path |
 |------|------|
@@ -461,7 +462,7 @@
 | `loading` | `icons/status/loading.svg` |
 | `warn` | `icons/status/warn.svg` |
 
-## ui (13)
+## icons/ui (13)
 
 | name | path |
 |------|------|
@@ -478,4 +479,63 @@
 | `search` | `icons/ui/search.svg` |
 | `settings` | `icons/ui/settings.svg` |
 | `test` | `icons/ui/test.svg` |
+
+## badges/static (40)
+
+| name | path |
+|------|------|
+| `ai-claude` | `badges/static/ai-claude.svg` |
+| `ai-codex` | `badges/static/ai-codex.svg` |
+| `ai-grok` | `badges/static/ai-grok.svg` |
+| `auth-google-oauth` | `badges/static/auth-google-oauth.svg` |
+| `build-failing` | `badges/static/build-failing.svg` |
+| `build-passing` | `badges/static/build-passing.svg` |
+| `ci-github-actions` | `badges/static/ci-github-actions.svg` |
+| `coverage-90` | `badges/static/coverage-90.svg` |
+| `coverage-unknown` | `badges/static/coverage-unknown.svg` |
+| `db-neon` | `badges/static/db-neon.svg` |
+| `db-postgresql` | `badges/static/db-postgresql.svg` |
+| `db-sheets` | `badges/static/db-sheets.svg` |
+| `db-sqlite` | `badges/static/db-sqlite.svg` |
+| `deploy-gas` | `badges/static/deploy-gas.svg` |
+| `deploy-netlify` | `badges/static/deploy-netlify.svg` |
+| `deploy-vercel` | `badges/static/deploy-vercel.svg` |
+| `django-5` | `badges/static/django-5.svg` |
+| `docs-readme` | `badges/static/docs-readme.svg` |
+| `e2e-playwright` | `badges/static/e2e-playwright.svg` |
+| `flask-3` | `badges/static/flask-3.svg` |
+| `license-mit` | `badges/static/license-mit.svg` |
+| `license-private` | `badges/static/license-private.svg` |
+| `line-messaging-api` | `badges/static/line-messaging-api.svg` |
+| `nextjs-16` | `badges/static/nextjs-16.svg` |
+| `node-20` | `badges/static/node-20.svg` |
+| `node-22` | `badges/static/node-22.svg` |
+| `platform-macos` | `badges/static/platform-macos.svg` |
+| `platform-windows` | `badges/static/platform-windows.svg` |
+| `prs-welcome` | `badges/static/prs-welcome.svg` |
+| `python-311` | `badges/static/python-311.svg` |
+| `python-312` | `badges/static/python-312.svg` |
+| `react-19` | `badges/static/react-19.svg` |
+| `stack-flask-vercel` | `badges/static/stack-flask-vercel.svg` |
+| `stack-next-supabase` | `badges/static/stack-next-supabase.svg` |
+| `status-production` | `badges/static/status-production.svg` |
+| `status-staging` | `badges/static/status-staging.svg` |
+| `status-wip` | `badges/static/status-wip.svg` |
+| `tests-passing` | `badges/static/tests-passing.svg` |
+| `typescript-5` | `badges/static/typescript-5.svg` |
+| `version-010` | `badges/static/version-010.svg` |
+
+## templates/flows (11)
+
+- [`01-google-oauth.md`](templates/flows/01-google-oauth.md)
+- [`02-webhook-verify-forward.md`](templates/flows/02-webhook-verify-forward.md)
+- [`03-desktop-sheets-gas.md`](templates/flows/03-desktop-sheets-gas.md)
+- [`04-line-gas-calendar.md`](templates/flows/04-line-gas-calendar.md)
+- [`05-vercel-neon-api.md`](templates/flows/05-vercel-neon-api.md)
+- [`06-guardian-notify-email.md`](templates/flows/06-guardian-notify-email.md)
+- [`07-multitenant-org.md`](templates/flows/07-multitenant-org.md)
+- [`08-ci-preview-production.md`](templates/flows/08-ci-preview-production.md)
+- [`09-incident-plan-b.md`](templates/flows/09-incident-plan-b.md)
+- [`10-ai-report-grounded.md`](templates/flows/10-ai-report-grounded.md)
+- [`README.md`](templates/flows/README.md)
 
