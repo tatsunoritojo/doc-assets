@@ -1,39 +1,19 @@
 # doc-assets
 
 <p align="center">
-  <img src="icons/brands/vercel.svg" width="36" height="36" alt="Vercel" />
-  &nbsp;
-  <img src="icons/brands/github.svg" width="36" height="36" alt="GitHub" />
-  &nbsp;
-  <img src="icons/brands/google.svg" width="36" height="36" alt="Google" />
-  &nbsp;
-  <img src="icons/brands/googlesheets.svg" width="36" height="36" alt="Sheets" />
-  &nbsp;
-  <img src="icons/brands/neon.svg" width="36" height="36" alt="Neon" />
-  &nbsp;
-  <img src="icons/brands/cloudflare.svg" width="36" height="36" alt="Cloudflare" />
-  &nbsp;
-  <img src="icons/brands/line.svg" width="36" height="36" alt="LINE" />
-  &nbsp;
-  <img src="icons/brands/claude.svg" width="36" height="36" alt="Claude" />
-  &nbsp;
-  <img src="icons/brands/openai.svg" width="36" height="36" alt="OpenAI" />
-  &nbsp;
-  <img src="icons/brands/obsidian.svg" width="36" height="36" alt="Obsidian" />
+  <img src="readme/concept.svg" width="760" alt="before: scatter · after: kit" />
 </p>
 
 <p align="center">
-  <strong>README・サービス図・提案資料のためのビジュアル素材キット</strong><br />
-  アイコンを探す時間を、説明を書く時間に変える。
+  <img src="readme/hero-brands.svg" width="560" alt="brand icons" />
 </p>
 
 <p align="center">
-  <img src="badges/static/build-passing.svg" alt="build" />
-  <img src="badges/static/deploy-vercel.svg" alt="vercel" />
-  <img src="badges/static/db-neon.svg" alt="neon" />
-  <img src="badges/static/auth-google-oauth.svg" alt="oauth" />
-  <img src="badges/static/ai-claude.svg" alt="claude" />
-  <img src="badges/static/e2e-playwright.svg" alt="playwright" />
+  <img src="badges/static/build-passing.svg" alt="" />
+  <img src="badges/static/deploy-vercel.svg" alt="" />
+  <img src="badges/static/db-neon.svg" alt="" />
+  <img src="badges/static/ai-claude.svg" alt="" />
+  <img src="badges/static/e2e-playwright.svg" alt="" />
 </p>
 
 <p align="center">
@@ -47,95 +27,27 @@
 
 ---
 
-## コンセプト
-
-| よくある現実 | このキット |
-|--------------|------------|
-| 毎回 Simple Icons / 検索で探す | **決まったパス**から貼る |
-| README だけ文字の壁 | **ロゴ・バッジ・枠**で一目でスタックが分かる |
-| サービス図が味気ない | **カラー brands + Mermaid 雛形** |
-| 偽 UI イラストで違和感 | **実スクショ + デバイス枠 + カーソル注釈**（A+C） |
-
-画面の中身は**本物のスクショ**が正。手描きの色付きダッシュボードは本線にしない。
-
----
-
-## ブランド（カラー本線）
+## brands
 
 <p align="center">
-  <img src="icons/brands/vercel.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/netlify.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/cloudflare.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/github.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/githubactions.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/docker.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/google.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/googleappsscript.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/googlesheets.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/googlecalendar.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/googledrive.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/gmail.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/neon.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/postgresql.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/supabase.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/firebase.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/line.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/slack.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/discord.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/x.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/claude.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/anthropic.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/openai.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/chatgpt.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/codex.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/gemini.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/grok.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/nextdotjs.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/react.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/python.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/flask.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/typescript.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/playwright.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/obsidian.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/figma.svg" width="28" height="28" alt="" />
-  <img src="icons/brands/notion.svg" width="28" height="28" alt="" />
+  <img src="readme/brands-row1.svg" width="700" alt="hosting google" /><br />
+  <img src="readme/brands-row2.svg" width="760" alt="data social ai" /><br />
+  <img src="readme/brands-row3.svg" width="640" alt="stack tools" />
 </p>
 
-| | |
-|--|--|
-| カラー | `icons/brands/` |
-| 単色 | `icons/brands-mono/` |
-| 一覧 | [preview-brands.html](./preview-brands.html) · [catalog.md](./catalog.md) |
-
-```markdown
-![Vercel](icons/brands/vercel.svg)
-![Claude](icons/brands/claude.svg)
-```
+<p align="center"><code>icons/brands/</code> · <a href="preview-brands.html">preview</a></p>
 
 ---
 
-## フロー記号（Lucide）
+## symbols
 
 <p align="center">
-  <img src="icons/actors/user.svg" width="28" height="28" alt="user" />
-  <img src="icons/actors/users.svg" width="28" height="28" alt="users" />
-  <img src="icons/actors/bot.svg" width="28" height="28" alt="bot" />
-  <img src="icons/flow/arrow-right.svg" width="28" height="28" alt="→" />
-  <img src="icons/flow/branch.svg" width="28" height="28" alt="branch" />
-  <img src="icons/flow/loop.svg" width="28" height="28" alt="loop" />
-  <img src="icons/status/check.svg" width="28" height="28" alt="ok" />
-  <img src="icons/status/error.svg" width="28" height="28" alt="err" />
-  <img src="icons/status/warn.svg" width="28" height="28" alt="warn" />
-  <img src="icons/data/database.svg" width="28" height="28" alt="db" />
-  <img src="icons/infra/lock.svg" width="28" height="28" alt="lock" />
-  <img src="icons/ui/qr-code.svg" width="28" height="28" alt="qr" />
+  <img src="readme/lucide-row.svg" width="680" alt="actors flow status data" />
 </p>
-
-人・矢印・状態・DB は線画のまま（図がうるさくならない）。
 
 ---
 
-## バッジ
+## badges
 
 <p align="center">
   <img src="badges/static/build-passing.svg" alt="" />
@@ -145,148 +57,87 @@
   <img src="badges/static/nextjs-16.svg" alt="" />
   <img src="badges/static/status-production.svg" alt="" />
   <img src="badges/static/status-wip.svg" alt="" />
+  <img src="badges/static/deploy-gas.svg" alt="" />
+  <img src="badges/static/line-messaging-api.svg" alt="" />
 </p>
 
-静的 SVG: `badges/static/` · Shields 用スニペット: [snippets/badges.md](./snippets/badges.md)
+<p align="center"><a href="preview-badges.html">preview</a> · <a href="snippets/badges.md">snippets</a></p>
 
 ---
 
-## サービスフロー雛形
+## screenshot stack
 
-コピーしてサービス名だけ差し替える Mermaid テンプレ（10 本）。
-
-| | テーマ |
-|--|--------|
-| [01](templates/flows/01-google-oauth.md) | Google OAuth |
-| [02](templates/flows/02-webhook-verify-forward.md) | Webhook 検証→転送 |
-| [03](templates/flows/03-desktop-sheets-gas.md) | Desktop → Sheets → GAS |
-| [05](templates/flows/05-vercel-neon-api.md) | Vercel → Neon → API |
-| [09](templates/flows/09-incident-plan-b.md) | 障害 Plan B |
-| [10](templates/flows/10-ai-report-grounded.md) | AI レポート接地 |
-
-色の共通定義: [tokens/mermaid.md](./tokens/mermaid.md) · 一覧: [templates/flows/](./templates/flows/)
-
----
-
-## デバイス枠 + カーソル（A+C）
-
-実スクショの上に枠とポインタを重ねて「どこを見るか」を示す。
+<p align="center">
+  <img src="readme/layers.svg" width="720" alt="cursors over frames over real screenshot" />
+</p>
 
 <p align="center">
   <img src="frames/browser.svg" width="420" alt="browser frame" />
 </p>
 
 <p align="center">
-  <img src="frames/phone.svg" width="120" alt="phone" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="frames/tablet.svg" width="220" alt="tablet" />
+  <img src="frames/phone.svg" height="200" alt="phone" />
+  &nbsp;&nbsp;
+  <img src="frames/tablet.svg" height="160" alt="tablet" />
 </p>
 
 <p align="center">
-  <img src="cursors/default.svg" width="32" height="32" alt="default" />
-  <img src="cursors/pointer.svg" width="32" height="32" alt="pointer" />
-  <img src="cursors/text.svg" width="32" height="32" alt="text" />
-  <img src="cursors/move.svg" width="32" height="32" alt="move" />
-  <img src="cursors/not-allowed.svg" width="32" height="32" alt="no" />
-  <img src="cursors/wait.svg" width="32" height="32" alt="wait" />
-  <img src="cursors/grab.svg" width="32" height="32" alt="grab" />
+  <img src="readme/cursors-row.svg" width="560" alt="cursors" />
 </p>
 
-| 素材 | パス |
-|------|------|
-| 枠（プレースホルダ） | `frames/browser.svg` など |
-| 枠（重ね用・画面が穴） | `frames/*-mask.svg` |
-| カーソル | `cursors/` |
-| ワイヤ UI 記号 | `windows/` `chrome/`（線のみ） |
+<p align="center">
+  <img src="readme/wire-row.svg" width="640" alt="wire ui symbols" />
+</p>
 
-手順: [snippets/frames.md](./snippets/frames.md) · [snippets/gui-chrome.md](./snippets/gui-chrome.md)
+<p align="center"><a href="preview-frames.html">frames</a> · <a href="preview-gui.html">gui</a></p>
 
 ---
 
-## OGP / favicon
-
-公開 URL を SNS に貼ったときのプレビュー用（1200×630）。
+## og · favicon
 
 <p align="center">
-  <img src="og/1200x630_product_clean.svg" width="480" alt="product og" />
+  <img src="og/1200x630_product_clean.svg" width="340" alt="" />
+  <img src="og/1200x630_blog_clean.svg" width="170" alt="" />
+  <img src="og/1200x630_portfolio_clean.svg" width="170" alt="" />
+  <img src="og/1200x630_announce_clean.svg" width="170" alt="" />
 </p>
 
 <p align="center">
-  <img src="og/1200x630_blog_clean.svg" width="240" alt="blog" />
-  <img src="og/1200x630_portfolio_clean.svg" width="240" alt="portfolio" />
-  <img src="og/1200x630_announce_clean.svg" width="240" alt="announce" />
+  <img src="favicon/icon.svg" width="40" height="40" alt="" style="background:#f1f5f9;border-radius:10px;padding:6px" />
+  <img src="favicon/apple-touch-180.svg" width="40" height="40" alt="" style="border-radius:10px" />
+  <img src="favicon/maskable.svg" width="40" height="40" alt="" style="border-radius:10px" />
 </p>
 
-<p align="center">
-  <img src="favicon/icon.svg" width="48" height="48" alt="favicon" />
-  &nbsp;
-  <img src="favicon/apple-touch-180.svg" width="48" height="48" alt="apple touch" />
-  &nbsp;
-  <img src="favicon/maskable.svg" width="48" height="48" alt="maskable" />
-</p>
-
-用途別テンプレ（blog / product / portfolio / minimal …）: [preview-og.html](./preview-og.html) · [snippets/og-favicon.md](./snippets/og-favicon.md)
+<p align="center"><a href="preview-og.html">preview-og</a></p>
 
 ---
 
-## ディレクトリ
+## use
 
-```
-doc-assets/
-├── icons/brands/          # カラーロゴ（本線）
-├── icons/brands-mono/     # 単色
-├── icons/{actors,flow,…}/ # Lucide
-├── badges/static/         # 静的バッジ
-├── templates/flows/       # Mermaid 雛形
-├── tokens/                # 色・classDef
-├── frames/                # デバイス枠
-├── cursors/               # ポインタ注釈
-├── windows/ chrome/       # ワイヤ記号
-├── og/ favicon/           # 共有カード・favicon
-├── snippets/              # コピペ集
-└── preview-*.html         # ブラウザ一覧
-```
-
----
-
-## 使い方（最短）
+<p align="center">
+  <img src="readme/usage.svg" width="720" alt="1 open preview 2 copy path 3 paste" />
+</p>
 
 ```bash
 git clone https://github.com/tatsunoritojo/doc-assets.git
-cd doc-assets
-# プレビュー
-open preview-brands.html
-```
-
-```bash
-# 自分のプロジェクトへ
-cp -R icons ./docs/assets/icons
-cp -R badges/static ./docs/assets/badges
+open doc-assets/preview-brands.html
 ```
 
 ```markdown
-| Host | ![Vercel](docs/assets/icons/brands/vercel.svg) Vercel |
-| DB   | ![Neon](docs/assets/icons/brands/neon.svg) Neon |
+![Vercel](icons/brands/vercel.svg)
+![build](badges/static/build-passing.svg)
 ```
 
-Tech 表の型: [snippets/tools-stack.md](./snippets/tools-stack.md)
+```bash
+cp -R icons badges/static frames cursors ./docs/assets/
+```
 
----
+<details>
+<summary>more</summary>
 
-## 出典・ライセンス
+- flows → <a href="templates/flows/">templates/flows/</a>
+- tokens → <a href="tokens/mermaid.md">tokens/mermaid.md</a>
+- catalog → <a href="catalog.md">catalog.md</a>
+- licenses → Lucide ISC · Simple Icons CC0 · kit <a href="LICENSE">MIT</a> · <a href="LICENSES.md">LICENSES.md</a>
 
-| 素材 | ライセンス |
-|------|------------|
-| Lucide | ISC |
-| Simple Icons | CC0（商標は各社） |
-| キット文書・ワイヤ・構成 | [MIT](./LICENSE) |
-
-詳細: [LICENSES.md](./LICENSES.md)
-
----
-
-## 方針
-
-- **足りないものは都度追加**
-- 色付き「偽 UI」は `archive/` のみ（本線に戻さない）
-- 画面説明 = **実スクショ + 枠 + カーソル**
+</details>
