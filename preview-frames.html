@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"/><title>doc-assets frames</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:24px;background:#f1f5f9}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+.card{background:#fff;border:1px solid #e2e8f0;border-radius:12px;padding:16px;text-align:center}
+.card img{max-width:100%;height:auto;max-height:220px}
+code{font-size:12px}
+.demo{position:relative;max-width:480px;margin:24px auto}
+.demo .shot{position:absolute;left:1.25%;top:8.1%;width:97.5%;height:90%;object-fit:cover;border-radius:6px;background:linear-gradient(135deg,#dbeafe,#fce7f3)}
+h2{margin-top:2rem}
+</style></head><body>
+<h1>doc-assets · frames</h1>
+<p>使い方: <a href="snippets/frames.md">snippets/frames.md</a></p>
+<div class="grid"><div class="card"><img src="frames/bg-dark.svg" alt="bg-dark"/><code>bg-dark</code></div><div class="card"><img src="frames/bg-light.svg" alt="bg-light"/><code>bg-light</code></div><div class="card"><img src="frames/browser-mask.svg" alt="browser-mask"/><code>browser-mask</code></div><div class="card"><img src="frames/browser.svg" alt="browser"/><code>browser</code></div><div class="card"><img src="frames/card.svg" alt="card"/><code>card</code></div><div class="card"><img src="frames/phone-mask.svg" alt="phone-mask"/><code>phone-mask</code></div><div class="card"><img src="frames/phone.svg" alt="phone"/><code>phone</code></div><div class="card"><img src="frames/tablet-mask.svg" alt="tablet-mask"/><code>tablet-mask</code></div><div class="card"><img src="frames/tablet.svg" alt="tablet"/><code>tablet</code></div></div>
+<h2>重ねデモ（グラデが「スクショ」役）</h2>
+<div class="demo">
+  <div class="shot"></div>
+  <img src="frames/browser-mask.svg" style="position:relative;width:100%;z-index:1" alt=""/>
+</div>
+</body></html>

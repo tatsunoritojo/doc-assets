@@ -104,6 +104,15 @@ cp -R ~/Github/doc-assets/icons ./docs/assets/icons
 | `snippets/tools-stack.md` | README 用 Tech 表コピペ |
 | `preview-tools.html` | ツール系アイコン一覧 |
 
+
+## Phase 2 追加（2026-07-23）
+
+| パス | 内容 |
+|------|------|
+| `frames/` | browser / phone / tablet / card / bg + mask 版 |
+| `snippets/frames.md` | 重ね方・比率 |
+| `preview-frames.html` | 一覧 + 重ねデモ |
+
 ## 方針
 
 1. **brands = カラーが正**。白黒が欲しいときだけ mono

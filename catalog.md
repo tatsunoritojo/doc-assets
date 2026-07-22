@@ -2,7 +2,11 @@
 
 更新 2026-07-23 Phase1+3。
 
-ツール台帳: [docs/tools-inventory.md](docs/tools-inventory.md) · [docs/tools-by-category.md](docs/tools-by-category.md) · [preview-tools.html](preview-tools.html)
+ツール台帳: [docs/tools-inventory.md
+
+フレーム: [frames/](frames/) · [preview-frames.html](preview-frames.html) · [snippets/frames.md](snippets/frames.md)](docs/tools-inventory.md
+
+フレーム: [frames/](frames/) · [preview-frames.html](preview-frames.html) · [snippets/frames.md](snippets/frames.md)) · [docs/tools-by-category.md](docs/tools-by-category.md) · [preview-tools.html](preview-tools.html)
 
 **アセット行数カウント対象: 471 SVG** + フロー md
 
@@ -546,3 +550,15 @@
 ## note
 
 - brands カラー数（Phase3 後）: **215**
+
+## frames
+
+- `frames/bg-dark.svg`
+- `frames/bg-light.svg`
+- `frames/browser-mask.svg`
+- `frames/browser.svg`
+- `frames/card.svg`
+- `frames/phone-mask.svg`
+- `frames/phone.svg`
+- `frames/tablet-mask.svg`
+- `frames/tablet.svg`

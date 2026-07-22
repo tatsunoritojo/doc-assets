@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 800" role="img" aria-label="Phone frame">
+  <title>Phone frame</title>
+  <rect x="10" y="14" width="370" height="780" rx="48" fill="#0F172A" opacity=".12"/>
+  <rect x="0" y="0" width="390" height="800" rx="48" fill="#0F172A"/>
+  <rect x="10" y="10" width="370" height="780" rx="40" fill="#1E293B"/>
+  <!-- dynamic island -->
+  <rect x="135" y="22" width="120" height="28" rx="14" fill="#020617"/>
+  <!-- screen -->
+  <rect id="screen" x="18" y="60" width="354" height="680" rx="28" fill="#FFFFFF"/>
+  <text x="195" y="410" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" fill="#94A3B8">screenshot</text>
+  <!-- home indicator -->
+  <rect x="145" y="758" width="100" height="5" rx="2.5" fill="#64748B"/>
+</svg>

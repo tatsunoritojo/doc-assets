@@ -1,12 +1,13 @@
 # doc-assets roadmap
 
 ## Done
-- D0–D3: icons brands カラー本線 + inventory
-- **Phase 1** (2026-07-23): badges / flow templates / mermaid tokens
-- **Phase 3** (2026-07-23): tools inventory / category / stack snippets / preview-tools
+- D0–D3: icons brands カラー本線
+- **Phase 1**: badges / flow templates / mermaid tokens
+- **Phase 3**: tools inventory / category / stack snippets
+- **Phase 2** (2026-07-23): frames (browser/phone/tablet/bg) + snippets
 
 ## Next
-- **Phase 2**: frames（browser/phone）+ diagram 視覚拡張
-- **Phase 4**: OGP / favicon / GCP 抜き出し / remote 方針
+- **Phase 4**（任意）: OGP / favicon / GCP 抜き出し / remote 方針
+- 不足ブランド・ツールは都度追加
 
-推奨順は 1 → 3 → 2 → 4（ツール台帳を frames より先に完了済み）。
+推奨順 1 → 3 → 2 → 4 のうち 1–3 と 2 完了。

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="Browser frame overlay">
+  <title>Browser frame overlay (transparent screen)</title>
+  <defs>
+    <mask id="hole">
+      <rect width="960" height="640" fill="white"/>
+      <rect x="12" y="52" width="936" height="576" rx="6" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="8" y="12" width="944" height="620" rx="12" fill="#0F172A" opacity=".08"/>
+  <rect x="0" y="0" width="960" height="640" rx="12" fill="#E2E8F0" mask="url(#hole)"/>
+  <rect x="0" y="0" width="960" height="44" rx="12" fill="#F1F5F9"/>
+  <rect x="0" y="32" width="960" height="12" fill="#F1F5F9"/>
+  <circle cx="28" cy="22" r="6" fill="#FF5F57"/>
+  <circle cx="50" cy="22" r="6" fill="#FEBC2E"/>
+  <circle cx="72" cy="22" r="6" fill="#28C840"/>
+  <rect x="120" y="10" width="720" height="24" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+  <rect x="12" y="52" width="936" height="576" rx="6" fill="none" stroke="#94A3B8" stroke-width="1"/>
+</svg>
