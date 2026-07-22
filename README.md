@@ -113,6 +113,17 @@ cp -R ~/Github/doc-assets/icons ./docs/assets/icons
 | `snippets/frames.md` | 重ね方・比率 |
 | `preview-frames.html` | 一覧 + 重ねデモ |
 
+
+## GUI 支援（2026-07-23）
+
+| パス | 内容 |
+|------|------|
+| `windows/` | dialog / modal / panel / menubar / dropdown / app / toast |
+| `cursors/` | default pointer text move wait grab 等 |
+| `chrome/` | button / input / tooltip / focus / toggle / chip |
+| `snippets/gui-chrome.md` | 合成例 |
+| `preview-gui.html` | 一覧 |
+
 ## 方針
 
 1. **brands = カラーが正**。白黒が欲しいときだけ mono

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 32" role="img" aria-label="Text selection">
+  <title>Selection</title>
+  <text x="8" y="22" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" fill="#0F172A">Hello </text>
+  <rect x="52" y="6" width="78" height="20" fill="#BFDBFE"/>
+  <text x="56" y="22" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" fill="#0F172A">selected</text>
+  <text x="132" y="22" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" fill="#0F172A"> text</text>
+</svg>

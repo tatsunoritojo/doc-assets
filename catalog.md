@@ -562,3 +562,8 @@
 - `frames/phone.svg`
 - `frames/tablet-mask.svg`
 - `frames/tablet.svg`
+
+## GUI
+
+- [windows/](windows/) · [cursors/](cursors/) · [chrome/](chrome/)
+- [preview-gui.html](preview-gui.html) · [snippets/gui-chrome.md](snippets/gui-chrome.md)

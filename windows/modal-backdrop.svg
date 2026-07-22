@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Modal backdrop">
+  <title>Modal with backdrop</title>
+  <rect width="800" height="500" fill="#0F172A" opacity=".45"/>
+  <!-- centered dialog -->
+  <g transform="translate(190,90)">
+    <rect x="4" y="6" width="412" height="268" rx="12" fill="#000" opacity=".2"/>
+    <rect width="420" height="280" rx="12" fill="#FFFFFF"/>
+    <rect width="420" height="44" rx="12" fill="#F8FAFC"/>
+    <rect y="24" width="420" height="20" fill="#F8FAFC"/>
+    <text x="20" y="28" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" font-weight="600" fill="#0F172A">Confirm</text>
+    <rect x="20" y="70" width="380" height="100" rx="8" fill="#F8FAFC"/>
+    <text x="210" y="125" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#64748B">Message body</text>
+    <rect x="220" y="220" width="88" height="36" rx="8" fill="#F1F5F9" stroke="#E2E8F0"/>
+    <text x="264" y="243" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#475569">Cancel</text>
+    <rect x="320" y="220" width="80" height="36" rx="8" fill="#3B82F6"/>
+    <text x="360" y="243" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#FFFFFF">OK</text>
+  </g>
+</svg>
