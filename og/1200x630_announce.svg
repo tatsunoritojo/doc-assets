@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+  <title>OGP announce (guide)</title>
+  <rect width="1200" height="630" fill="#0F172A"/>
+  <rect x="80" y="160" width="140" height="36" rx="18" fill="none" stroke="#38BDF8" stroke-width="2"/>
+  <line x1="110" y1="178" x2="190" y2="178" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" opacity=".6"/>
+  <rect x="80" y="230" width="900" height="48" rx="4" fill="#E2E8F0" opacity=".2"/>
+  <rect x="80" y="310" width="640" height="24" rx="4" fill="#94A3B8" opacity=".25"/>
+  <text x="80" y="140" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#64748B">label · title · subtitle</text>
+</svg>

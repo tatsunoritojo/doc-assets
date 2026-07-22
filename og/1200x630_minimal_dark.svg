@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+  <title>OGP minimal dark (guide)</title>
+  <rect width="1200" height="630" fill="#09090B"/>
+  <rect x="80" y="80" width="1040" height="470" fill="none" stroke="#27272A" stroke-width="1"/>
+  <rect x="200" y="260" width="800" height="36" rx="4" fill="#27272A"/>
+  <rect x="300" y="330" width="600" height="16" rx="3" fill="#18181B"/>
+</svg>

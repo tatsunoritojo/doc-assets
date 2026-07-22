@@ -1,30 +1,59 @@
 # OGP / favicon
 
+## いつ使うか
+
+公開 URL を X / Slack / Discord / LINE 等に**貼ったときのプレビュー画像**。  
+非公開だけのリポでは不要。portfolio・LP・ブログ・デモ URL 向け。
+
 ## サイズ
 
 | 用途 | 推奨 |
 |------|------|
-| Open Graph / Twitter card | **1200×630** |
-| favicon タブ | 16 / 32（SVG 可） |
+| Open Graph / X large card | **1200×630** |
+| favicon | 16 / 32（SVG 可） |
 | Apple touch | 180×180 |
-| PWA maskable | 安全領域を中央に（`maskable.svg`） |
+| PWA maskable | `favicon/maskable.svg` |
 
-## OGP テンプレ
+---
 
-| ファイル | 用途 |
-|----------|------|
-| `og/1200x630_light.svg` | ライト + タイトル位置ガイド |
-| `og/1200x630_dark.svg` | ダーク + ガイド |
-| `og/1200x630_accent.svg` | アクセント（左バー）+ ガイド |
-| `og/*_clean.svg` | **書き出し用**（ガイドなし） |
+## OGP テンプレ一覧（`og/`）
 
-### 使い方
+命名: `1200x630_<用途>.svg` = レイアウト検討（ガイド付き）  
+`1200x630_<用途>_clean.svg` = **本番書き出し用**（ガイドなし）
 
-1. `*_clean.svg` をベースに、タイトルを Figma / ブラウザ / ImageMagick で載せる  
-2. PNG で書き出し（SNS は PNG/JPEG が無難）  
-3. プロジェクトの `public/og.png` 等へ  
+### 用途別
 
-ガイド付き版は**レイアウト検討用**。本番 URL には clean から作った PNG を使う。
+| 用途 | guide | clean | 向いている場面 |
+|------|-------|-------|----------------|
+| light / dark / accent | 既存 | 既存 | 汎用 |
+| **blog** | `..._blog.svg` | `..._blog_clean.svg` | 記事・writings |
+| **product** | `..._product.svg` | `..._product_clean.svg` | SaaS / 左コピー右スクショ |
+| **product_light** | `..._product_light.svg` | `..._product_light_clean.svg` | 同上・明るい版 |
+| **portfolio** | `..._portfolio.svg` | `..._portfolio_clean.svg` | 個人サイト・中央タイトル |
+| **minimal** | `..._minimal.svg` | `..._minimal_clean.svg` | 余白最大・白 |
+| **minimal_dark** | `..._minimal_dark.svg` | `..._minimal_dark_clean.svg` | 余白最大・黒 |
+| **announce** | `..._announce.svg` | `..._announce_clean.svg` | リリース・告知 |
+| **split_v** | `..._split_v.svg` | `..._split_v_clean.svg` | 上画像・下タイトル |
+| **docs** | `..._docs.svg` | `..._docs_clean.svg` | 技術ドキュメント・README 公開 |
+| **warm** | `..._warm.svg` | `..._warm_clean.svg` | やわらかいトーン |
+
+### 選び方（ざっくり）
+
+```
+記事を貼る          → blog / split_v
+プロダクト URL      → product（スクショあり）or announce
+ポートフォリオ      → portfolio / minimal
+社内に近い・静か    → minimal / docs
+個人・教育っぽさ    → warm
+```
+
+### 作り方
+
+1. 用途の **`_clean.svg`** を開く  
+2. タイトル（必要なら**実スクショ**）を載せる  
+3. PNG 1200×630 で書き出し → `public/og.png` 等  
+
+guide 版は配置の当たり用。本番 meta には clean から作った PNG を使う。
 
 ```html
 <meta property="og:image" content="https://example.com/og.png" />
@@ -33,34 +62,26 @@
 <meta name="twitter:card" content="summary_large_image" />
 ```
 
-### A+C との関係
+### A+C
 
-- 背景は静かな板。偽 UI や架空ダッシュボードは描かない  
-- プロダクト画面を載せたいなら**実スクショ**を中央に載せる  
+- 偽ダッシュボードは描かない  
+- 画面が要るなら実スクショを slot に載せる（product / split_v）
 
-## favicon
+---
+
+## favicon（変更なし）
 
 | ファイル | 用途 |
 |----------|------|
-| `favicon/icon.svg` | ベース（差し替え前提の抽象マーク） |
-| `favicon/icon-16.svg` / `icon-32.svg` | 固定サイズ |
-| `favicon/icon-dark.svg` | ダーク UI 向け |
-| `favicon/apple-touch-180.svg` | iOS ホーム |
-| `favicon/maskable.svg` | PWA 用ソリッド |
+| `favicon/icon.svg` | ベース（案件ロゴで差し替え可） |
+| `icon-16.svg` / `icon-32.svg` | 固定サイズ |
+| `icon-dark.svg` | ダーク向け |
+| `apple-touch-180.svg` | iOS |
+| `maskable.svg` | PWA |
 
 ```html
 <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-```
-
-**マークは汎用の抽象形**。案件の正式ロゴがある場合は `icon.svg` を差し替える。
-
-### SVG → PNG（任意）
-
-```bash
-# rsvg-convert や qlmanage 等、環境にあるツールで
-# 例: 180px
-# rsvg-convert -w 180 -h 180 apple-touch-180.svg -o apple-touch-icon.png
 ```
 
 プレビュー: [preview-og.html](../preview-og.html)

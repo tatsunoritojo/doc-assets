@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+  <title>OGP product light (guide)</title>
+  <rect width="1200" height="630" fill="#F1F5F9"/>
+  <rect x="0" y="0" width="560" height="630" fill="#FFFFFF"/>
+  <rect x="64" y="180" width="400" height="32" rx="4" fill="#CBD5E1" opacity=".6"/>
+  <rect x="64" y="240" width="320" height="16" rx="4" fill="#94A3B8" opacity=".45"/>
+  <rect x="64" y="276" width="280" height="16" rx="4" fill="#94A3B8" opacity=".3"/>
+  <rect x="600" y="90" width="520" height="450" rx="12" fill="none" stroke="#94A3B8" stroke-width="1.5" stroke-dasharray="10 6"/>
+  <text x="600" y="70" font-family="ui-sans-serif,system-ui,sans-serif" font-size="14" fill="#94A3B8">screenshot slot</text>
+</svg>
