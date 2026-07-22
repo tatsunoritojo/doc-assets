@@ -1,4 +1,4 @@
 # cursors
 
-図解用マウスカーソル SVG（OS カーソルファイルではない）。  
-使い方: [../snippets/gui-chrome.md](../snippets/gui-chrome.md)
+図解用注釈。OS のカーソルファイルではない。  
+方針: [../snippets/gui-chrome.md](../snippets/gui-chrome.md)

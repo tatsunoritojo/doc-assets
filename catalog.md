@@ -567,3 +567,9 @@
 
 - [windows/](windows/) · [cursors/](cursors/) · [chrome/](chrome/)
 - [preview-gui.html](preview-gui.html) · [snippets/gui-chrome.md](snippets/gui-chrome.md)
+
+## GUI policy (A+C)
+
+- wire: `windows/` `chrome/` `cursors/`
+- archive filled: `archive/gui-filled-20260723/`
+- rules: `snippets/gui-chrome.md`

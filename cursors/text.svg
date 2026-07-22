@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Cursor text">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="カーソルテキスト">
   <title>cursor text</title>
-  <path fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round"
-    d="M8 5h2.5M14.5 5H17M11 5v14M8 19h2.5M14.5 19H17"/>
-  <path fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" opacity=".9"
-    d="M8 5h2.5M14.5 5H17M11 5v14M8 19h2.5M14.5 19H17"/>
-  <path fill="none" stroke="#000" stroke-width="1.8" stroke-linecap="round"
-    d="M8 5h2.5M14.5 5H17M11 5v14M8 19h2.5M14.5 19H17"/>
+  <g fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round">
+    <path d="M10 6h4M18 6h4M14 6v20M10 26h4M18 26h4"/>
+  </g>
+  <g fill="none" stroke="#000" stroke-width="1.6" stroke-linecap="round">
+    <path d="M10 6h4M18 6h4M14 6v20M10 26h4M18 26h4"/>
+  </g>
 </svg>

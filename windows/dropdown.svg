@@ -1,11 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 200" role="img" aria-label="Dropdown menu">
-  <title>Dropdown</title>
-  <rect x="2" y="4" width="216" height="192" rx="10" fill="#0F172A" opacity=".1"/>
-  <rect width="220" height="200" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
-  <rect x="8" y="8" width="204" height="36" rx="6" fill="#EEF2FF"/>
-  <text x="20" y="31" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#3730A3">Selected item</text>
-  <text x="20" y="75" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#334155">Option A</text>
-  <text x="20" y="115" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#334155">Option B</text>
-  <line x1="12" y1="140" x2="208" y2="140" stroke="#E2E8F0"/>
-  <text x="20" y="170" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#EF4444">Delete…</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" fill="none" role="img" aria-label="ドロップダウン記号">
+  <title>dropdown wire</title>
+  <rect x="1" y="1" width="158" height="138" rx="6" stroke="#334155" stroke-width="1.5"/>
+  <rect x="8" y="8" width="144" height="28" rx="4" stroke="#64748B" stroke-width="1"/>
+  <line x1="20" y1="56" x2="100" y2="56" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="20" y1="84" x2="110" y2="84" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="12" y1="104" x2="148" y2="104" stroke="#E2E8F0" stroke-width="1"/>
+  <line x1="20" y1="122" x2="90" y2="122" stroke="#94A3B8" stroke-width="1.5" stroke-linecap="round"/>
 </svg>

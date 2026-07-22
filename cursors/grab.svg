@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Cursor grab">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="カーソル掴む">
   <title>cursor grab</title>
-  <path fill="#000" stroke="#fff" stroke-width="1" stroke-linejoin="round"
-    d="M8 11V7.5a1.5 1.5 0 013 0V11h.5V6.5a1.5 1.5 0 013 0V11h.5V7.5a1.5 1.5 0 013 0V14c0 3-2 5.5-5.5 5.5S7 17 7 14v-2.5A1.5 1.5 0 018 10v1z"/>
+  <path fill="#000" stroke="#fff" stroke-width="1.1" stroke-linejoin="round"
+    d="M10.5 14V9.5a2 2 0 014 0V14h.8V8.5a2 2 0 014 0V14h.7V9.5a2 2 0 014 0V17c0 3.8-2.5 7-7 7s-7-3.2-7-7v-2.5a2 2 0 013.5-1.3V14z"/>
 </svg>

@@ -1,14 +1,13 @@
 # doc-assets roadmap
 
 ## Done
-- icons brands カラー本線 + inventory
-- Phase 1: badges / flows / tokens
-- Phase 3: tools inventory
-- Phase 2: device frames
-- **GUI chrome** (2026-07-23): windows / cursors / chrome controls
+- icons / badges / flows / tools / frames
+- GUI filled mock（後に撤回）
+- **A+C 再設計** (2026-07-23): 色付き偽 UI を archive、ワイヤ記号 + 実スクショ主役
 
-## Next（任意・都度）
-- Phase 4: OGP / favicon / クラウド公式抜き出し
-- 不足ブランド・ツール・GUI 部品の追加
+## 運用
+- 不足ブランド・ツールは都度追加
+- GUI の中身はスクショ。記号は wire のみ追加
 
-運用: 足りないものは使うときに足す。
+## Optional
+- Phase 4: OGP / favicon / クラウド公式

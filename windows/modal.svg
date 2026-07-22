@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" fill="none" role="img" aria-label="モーダル記号">
+  <title>modal wire</title>
+  <rect width="400" height="260" fill="#0F172A" opacity=".06"/>
+  <rect x="80" y="50" width="240" height="160" rx="8" fill="#fff" stroke="#334155" stroke-width="1.5"/>
+  <line x1="80" y1="82" x2="320" y2="82" stroke="#334155" stroke-width="1.5"/>
+  <line x1="100" y1="66" x2="180" y2="66" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  <rect x="100" y="100" width="200" height="48" rx="4" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 3"/>
+  <rect x="168" y="168" width="52" height="24" rx="4" stroke="#334155" stroke-width="1.5"/>
+  <rect x="228" y="168" width="52" height="24" rx="4" stroke="#334155" stroke-width="1.5"/>
+</svg>

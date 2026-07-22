@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 44" fill="none" role="img" aria-label="フォーカス記号">
+  <title>focus wire</title>
+  <rect x="8" y="8" width="104" height="28" rx="6" stroke="#334155" stroke-width="1.5"/>
+  <rect x="4" y="4" width="112" height="36" rx="8" stroke="#64748B" stroke-width="1.5" stroke-dasharray="3 2"/>
+</svg>

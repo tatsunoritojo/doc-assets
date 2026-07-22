@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 40" role="img" aria-label="Menu bar">
+  <title>Menu bar</title>
+  <rect width="640" height="40" fill="#F8FAFC" stroke="#E2E8F0"/>
+  <text x="16" y="25" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#0F172A">File</text>
+  <text x="64" y="25" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#0F172A">Edit</text>
+  <text x="112" y="25" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#0F172A">View</text>
+  <text x="168" y="25" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" fill="#3B82F6">Help</text>
+  <rect x="156" y="8" width="48" height="24" rx="4" fill="#DBEAFE"/>
+</svg>

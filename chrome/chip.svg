@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 24" fill="none" role="img" aria-label="チップ記号">
+  <title>chip wire</title>
+  <rect x="1" y="1" width="62" height="22" rx="11" stroke="#334155" stroke-width="1.5"/>
+  <circle cx="12" cy="12" r="3" stroke="#64748B" stroke-width="1.2"/>
+  <line x1="22" y1="12" x2="48" y2="12" stroke="#64748B" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

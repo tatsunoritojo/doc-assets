@@ -114,15 +114,18 @@ cp -R ~/Github/doc-assets/icons ./docs/assets/icons
 | `preview-frames.html` | 一覧 + 重ねデモ |
 
 
-## GUI 支援（2026-07-23）
+## GUI（A+C 方針）
 
-| パス | 内容 |
+| 本線 | 内容 |
 |------|------|
-| `windows/` | dialog / modal / panel / menubar / dropdown / app / toast |
-| `cursors/` | default pointer text move wait grab 等 |
-| `chrome/` | button / input / tooltip / focus / toggle / chip |
-| `snippets/gui-chrome.md` | 合成例 |
-| `preview-gui.html` | 一覧 |
+| `frames/` | デバイス枠（実スクショと重ねる） |
+| `cursors/` | 操作注釈用ポインタ |
+| `windows/` `chrome/` | **ワイヤ記号のみ**（線・無彩色） |
+| `snippets/gui-chrome.md` | 運用ルール |
+| `archive/gui-filled-20260723/` | 旧・色付き偽 UI（使わない） |
+
+**画面の中身は実スクショが正。** 手描きで本物の UI を装わない。
+
 
 ## 方針
 

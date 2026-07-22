@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Cursor move">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="カーソル移動">
   <title>cursor move</title>
   <path fill="#000" stroke="#fff" stroke-width="1" stroke-linejoin="round"
-    d="M12 2l3 3h-2v4h4V7l3 3-3 3v-2h-4v4h2l-3 3-3-3h2v-4H7v2L4 10l3-3v2h4V5H9l3-3z"/>
+    d="M16 3l4 4h-3v5h5V9l4 4-4 4v-3h-5v5h3l-4 4-4-4h3v-5H9v3L5 13l4-4v3h5V7H11l5-4z"/>
 </svg>

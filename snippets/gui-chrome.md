@@ -1,60 +1,62 @@
-# GUI 支援アセット（window / cursor / chrome）
+# GUI 記号（A+C 方針）
 
-| ディレクトリ | 用途 |
-|--------------|------|
-| `windows/` | ダイアログ・パネル・アプリ枠・トースト |
-| `cursors/` | マウスカーソル（図解用 SVG） |
-| `chrome/` | ボタン・入力・tooltip・focus・toggle 等 |
+## 原則
 
-## カーソルを「操作中」に見せる
+1. **画面の中身は実スクショが正**（手描き UI で本物のフリをしない）
+2. **window / chrome はワイヤ記号**（線のみ・色なし・英語ラベルなし）
+3. **カーソルは注釈用**（どの操作かを示す）
+4. 色付き旧モックは `archive/gui-filled-20260723/`（本線で使わない）
 
-```html
-<div style="position:relative; display:inline-block;">
-  <img src="/Users/tatsu/Github/doc-assets/frames/browser.svg" width="480" alt="" />
-  <img src="/Users/tatsu/Github/doc-assets/cursors/pointer.svg"
-       width="28" height="28" alt=""
-       style="position:absolute; left:62%; top:48%; filter:drop-shadow(0 1px 1px rgba(0,0,0,.35));" />
-</div>
+## 推奨レイヤ
+
+```
+[背景 bg 任意]
+  └ [実スクショ]
+      └ [frames/*-mask.svg  デバイス枠]
+          └ [cursors/*.svg  ポインタ注釈]
 ```
 
-| カーソル | ファイル | 使う場面 |
-|----------|----------|----------|
-| 矢印 | `cursors/default.svg` | 通常 |
-| 指 | `cursors/pointer.svg` | クリック可能 |
-| I ビーム | `cursors/text.svg` | テキスト入力 |
-| 移動 | `cursors/move.svg` | ドラッグ |
-| 禁止 | `cursors/not-allowed.svg` | 無効 |
-| 待ち | `cursors/wait.svg` | 処理中 |
-| 十字 | `cursors/crosshair.svg` | 精密選択 |
-| つかむ | `cursors/grab.svg` | パン |
+ダイアログの**中身**を描きたいときも、ワイヤ `windows/dialog.svg` は「箱の記号」だけ。文言やボタン色はスクショ側。
 
-## ウィンドウ部品
+## カーソル注釈
 
-```markdown
-![Dialog](/Users/tatsu/Github/doc-assets/windows/dialog.svg)
-![Modal](/Users/tatsu/Github/doc-assets/windows/modal-backdrop.svg)
-![App](/Users/tatsu/Github/doc-assets/windows/window-app.svg)
-![Toast](/Users/tatsu/Github/doc-assets/windows/toast.svg)
+```html
+<div style="position:relative; display:inline-block; max-width:560px;">
+  <img src="./shot.png" alt="画面" style="width:100%; display:block; border-radius:8px;" />
+  <img src="/Users/tatsu/Github/doc-assets/cursors/pointer.svg"
+       width="28" height="28" alt=""
+       style="position:absolute; left:58%; top:42%;
+              filter:drop-shadow(0 1px 1px rgba(0,0,0,.35)); pointer-events:none;" />
+</div>
 ```
 
 | ファイル | 用途 |
 |----------|------|
-| `dialog.svg` | 確認ダイアログ |
-| `modal-backdrop.svg` | 背面暗転 + 中央ダイアログ |
-| `panel.svg` | サイドパネル |
-| `menubar.svg` | メニューバー |
-| `dropdown.svg` | ドロップダウン |
-| `window-app.svg` | サイドバー付きアプリ窓 |
-| `toast.svg` | 保存完了などのトースト |
+| `cursors/default.svg` | 通常 |
+| `cursors/pointer.svg` | クリック |
+| `cursors/text.svg` | 入力 |
+| `cursors/move.svg` | 移動 |
+| `cursors/not-allowed.svg` | 不可 |
+| `cursors/wait.svg` | 待ち |
+| `cursors/crosshair.svg` | 精密 |
+| `cursors/grab.svg` | パン |
 
-## UI コントロール
+## ワイヤ記号（状態・構造の説明）
 
 ```markdown
-![Primary](/Users/tatsu/Github/doc-assets/chrome/button-primary.svg)
-![Focus](/Users/tatsu/Github/doc-assets/chrome/focus-ring.svg)
-![Tooltip](/Users/tatsu/Github/doc-assets/chrome/tooltip.svg)
+![dialog](/Users/tatsu/Github/doc-assets/windows/dialog.svg)
+![modal](/Users/tatsu/Github/doc-assets/windows/modal.svg)
+![app](/Users/tatsu/Github/doc-assets/windows/window-app.svg)
+![button](/Users/tatsu/Github/doc-assets/chrome/button.svg)
+![focus](/Users/tatsu/Github/doc-assets/chrome/focus.svg)
 ```
 
-フロー図の横に「この画面でポインタはここ」と添える用途向け。本番 UI の代替ではない。
+フロー図のノード横に「ここでモーダル」と添える程度に使う。
+
+## やらないこと
+
+- 色付き OK ボタンの手描きを README ヒーローに載せる  
+- `Dialog title` / `Button` 英語プレースホルダの復活  
+- 旧 `archive/gui-filled-*` を本線に戻す  
 
 プレビュー: [preview-gui.html](../preview-gui.html)

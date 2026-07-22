@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 36" fill="none" role="img" aria-label="ボタン記号">
+  <title>button wire</title>
+  <rect x="1" y="1" width="94" height="34" rx="6" stroke="#334155" stroke-width="1.5"/>
+  <line x1="28" y1="18" x2="68" y2="18" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+</svg>

@@ -1,4 +1,4 @@
-# chrome
+# chrome（ワイヤ記号）
 
-ボタン・入力・tooltip・focus・toggle 等の UI 部品。  
-使い方: [../snippets/gui-chrome.md](../snippets/gui-chrome.md)
+線画のみ。色付き旧版は `../archive/gui-filled-20260723/chrome/`。  
+方針: [../snippets/gui-chrome.md](../snippets/gui-chrome.md)
