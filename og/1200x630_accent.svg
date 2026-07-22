@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="OGP accent">
+  <title>OGP 1200×630 accent</title>
+  <rect width="1200" height="630" fill="#0B1220"/>
+  <rect x="0" y="0" width="16" height="630" fill="#38BDF8"/>
+  <path d="M900 0 L1200 0 L1200 630 L700 630 Z" fill="#111827"/>
+  <circle cx="1000" cy="315" r="160" fill="none" stroke="#38BDF8" stroke-width="2" opacity=".35"/>
+  <circle cx="1000" cy="315" r="100" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity=".25"/>
+  <rect x="80" y="140" width="720" height="350" rx="8" fill="none" stroke="#475569" stroke-width="1" stroke-dasharray="8 6" opacity=".5"/>
+  <line x1="120" y1="260" x2="640" y2="260" stroke="#F1F5F9" stroke-width="8" stroke-linecap="round" opacity=".22"/>
+  <line x1="120" y1="320" x2="480" y2="320" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" opacity=".2"/>
+</svg>

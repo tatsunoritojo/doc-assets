@@ -1,13 +1,18 @@
 # doc-assets roadmap
 
-## Done
-- icons / badges / flows / tools / frames
-- GUI filled mock（後に撤回）
-- **A+C 再設計** (2026-07-23): 色付き偽 UI を archive、ワイヤ記号 + 実スクショ主役
+## Done（キット初期構築 完了）
+- icons brands カラー本線 + inventory
+- Phase 1: badges / flow templates / tokens
+- Phase 3: tools inventory
+- Phase 2: device frames
+- GUI A+C: wire + 実スクショ主役
+- **Phase 4**: OGP / favicon 雛形
 
-## 運用
-- 不足ブランド・ツールは都度追加
-- GUI の中身はスクショ。記号は wire のみ追加
+## 運用（継続）
+- 不足ブランド・ツール・ワイヤ記号は都度追加
+- 画面説明は実スクショ + frames + cursors
+- 色付き偽 UI は archive のまま本線に戻さない
 
-## Optional
-- Phase 4: OGP / favicon / クラウド公式
+## 任意・後回し
+- クラウド公式アイコンの抜き出し（必要時）
+- GitHub remote 公開可否

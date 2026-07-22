@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img">
+  <title>OGP accent clean</title>
+  <rect width="1200" height="630" fill="#0B1220"/>
+  <rect x="0" y="0" width="16" height="630" fill="#38BDF8"/>
+  <path d="M900 0 L1200 0 L1200 630 L700 630 Z" fill="#111827"/>
+  <circle cx="1000" cy="315" r="160" fill="none" stroke="#38BDF8" stroke-width="2" opacity=".35"/>
+  <circle cx="1000" cy="315" r="100" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity=".25"/>
+</svg>

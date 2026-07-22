@@ -127,6 +127,16 @@ cp -R ~/Github/doc-assets/icons ./docs/assets/icons
 **画面の中身は実スクショが正。** 手描きで本物の UI を装わない。
 
 
+
+## Phase 4（OGP / favicon）
+
+| パス | 内容 |
+|------|------|
+| `og/` | 1200×630 背景（guide + clean） |
+| `favicon/` | SVG 雛形（16/32/180/maskable） |
+| `snippets/og-favicon.md` | meta タグと書き出し |
+| `preview-og.html` | 一覧 |
+
 ## 方針
 
 1. **brands = カラーが正**。白黒が欲しいときだけ mono

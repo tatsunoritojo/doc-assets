@@ -573,3 +573,8 @@
 - wire: `windows/` `chrome/` `cursors/`
 - archive filled: `archive/gui-filled-20260723/`
 - rules: `snippets/gui-chrome.md`
+
+## OGP / favicon
+
+- [og/](og/) · [favicon/](favicon/)
+- [preview-og.html](preview-og.html) · [snippets/og-favicon.md](snippets/og-favicon.md)
