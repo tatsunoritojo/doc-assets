@@ -1,6 +1,9 @@
 # catalog
 
-更新 2026-07-23 Phase1。
+更新 2026-07-23 Phase1+3。
+
+ツール台帳: [docs/tools-inventory.md](docs/tools-inventory.md) · [docs/tools-by-category.md](docs/tools-by-category.md) · [preview-tools.html](preview-tools.html)
+
 **アセット行数カウント対象: 471 SVG** + フロー md
 
 
@@ -539,3 +542,7 @@
 - [`10-ai-report-grounded.md`](templates/flows/10-ai-report-grounded.md)
 - [`README.md`](templates/flows/README.md)
 
+
+## note
+
+- brands カラー数（Phase3 後）: **215**

@@ -94,6 +94,16 @@ README・サービスフロー図・設計メモ向けの**横断アイコンキ
 cp -R ~/Github/doc-assets/icons ./docs/assets/icons
 ```
 
+
+## Phase 3 追加（2026-07-23）
+
+| パス | 内容 |
+|------|------|
+| `docs/tools-inventory.md` | PATH / npm / brew 観測台帳（観測と推論を分離） |
+| `docs/tools-by-category.md` | カテゴリ索引 → アイコン名 |
+| `snippets/tools-stack.md` | README 用 Tech 表コピペ |
+| `preview-tools.html` | ツール系アイコン一覧 |
+
 ## 方針
 
 1. **brands = カラーが正**。白黒が欲しいときだけ mono
