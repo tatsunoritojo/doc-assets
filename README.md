@@ -5,25 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="icons/brands/vercel.svg" width="36" height="36" alt="Vercel" />
-  &nbsp;
-  <img src="icons/brands/github.svg" width="36" height="36" alt="GitHub" />
-  &nbsp;
-  <img src="icons/brands/google.svg" width="36" height="36" alt="Google" />
-  &nbsp;
-  <img src="icons/brands/googlesheets.svg" width="36" height="36" alt="Sheets" />
-  &nbsp;
-  <img src="icons/brands/neon.svg" width="36" height="36" alt="Neon" />
-  &nbsp;
-  <img src="icons/brands/cloudflare.svg" width="36" height="36" alt="Cloudflare" />
-  &nbsp;
-  <img src="icons/brands/line.svg" width="36" height="36" alt="LINE" />
-  &nbsp;
-  <img src="icons/brands/claude.svg" width="36" height="36" alt="Claude" />
-  &nbsp;
-  <img src="icons/brands/openai.svg" width="36" height="36" alt="OpenAI" />
-  &nbsp;
-  <img src="icons/brands/obsidian.svg" width="36" height="36" alt="Obsidian" />
+  <img src="readme/on-white-hero.svg" width="520" alt="brand icons on white" />
 </p>
 
 <p align="center">
@@ -49,42 +31,9 @@
 ## brands
 
 <p align="center">
-  <img src="icons/brands/vercel.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/netlify.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/cloudflare.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/github.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/githubactions.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/docker.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/google.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/googleappsscript.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/googlesheets.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/googlecalendar.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/googledrive.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/gmail.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/neon.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/postgresql.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/supabase.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/firebase.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/line.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/slack.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/discord.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/x.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/claude.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/anthropic.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/openai.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/chatgpt.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/codex.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/gemini.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/grok.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/nextdotjs.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/react.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/python.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/flask.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/typescript.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/playwright.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/obsidian.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/figma.svg" width="32" height="32" alt="" />
-  <img src="icons/brands/notion.svg" width="32" height="32" alt="" />
+  <img src="readme/on-white-row1.svg" width="640" alt="hosting & google" /><br /><br />
+  <img src="readme/on-white-row2.svg" width="720" alt="data social ai" /><br /><br />
+  <img src="readme/on-white-row3.svg" width="560" alt="stack" />
 </p>
 
 <p align="center">
@@ -101,18 +50,7 @@
 ## symbols
 
 <p align="center">
-  <img src="icons/actors/user.svg" width="28" height="28" alt="" />
-  <img src="icons/actors/users.svg" width="28" height="28" alt="" />
-  <img src="icons/actors/bot.svg" width="28" height="28" alt="" />
-  <img src="icons/flow/arrow-right.svg" width="28" height="28" alt="" />
-  <img src="icons/flow/branch.svg" width="28" height="28" alt="" />
-  <img src="icons/flow/loop.svg" width="28" height="28" alt="" />
-  <img src="icons/status/check.svg" width="28" height="28" alt="" />
-  <img src="icons/status/error.svg" width="28" height="28" alt="" />
-  <img src="icons/status/warn.svg" width="28" height="28" alt="" />
-  <img src="icons/data/database.svg" width="28" height="28" alt="" />
-  <img src="icons/infra/lock.svg" width="28" height="28" alt="" />
-  <img src="icons/ui/qr-code.svg" width="28" height="28" alt="" />
+  <img src="readme/on-white-symbols.svg" width="600" alt="flow symbols on white" />
 </p>
 
 ---
@@ -152,24 +90,11 @@
 </p>
 
 <p align="center">
-  <img src="cursors/default.svg" width="32" height="32" alt="" />
-  <img src="cursors/pointer.svg" width="32" height="32" alt="" />
-  <img src="cursors/text.svg" width="32" height="32" alt="" />
-  <img src="cursors/move.svg" width="32" height="32" alt="" />
-  <img src="cursors/not-allowed.svg" width="32" height="32" alt="" />
-  <img src="cursors/wait.svg" width="32" height="32" alt="" />
-  <img src="cursors/grab.svg" width="32" height="32" alt="" />
-  <img src="cursors/crosshair.svg" width="32" height="32" alt="" />
+  <img src="readme/on-white-cursors.svg" width="480" alt="cursors on white" />
 </p>
 
 <p align="center">
-  <img src="windows/dialog.svg" width="140" alt="dialog wire" />
-  &nbsp;
-  <img src="windows/window-app.svg" width="160" alt="app wire" />
-  &nbsp;
-  <img src="chrome/focus.svg" width="100" alt="focus wire" />
-  &nbsp;
-  <img src="chrome/toggle-on.svg" width="56" alt="toggle" />
+  <img src="readme/wire-row.svg" width="640" alt="wire ui symbols" />
 </p>
 
 <p align="center"><a href="preview-frames.html">frames</a> · <a href="preview-gui.html">gui</a></p>
