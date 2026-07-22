@@ -1,18 +1,14 @@
-# doc-assets roadmap
+# roadmap
 
-## Done（キット初期構築 完了）
-- icons brands カラー本線 + inventory
-- Phase 1: badges / flow templates / tokens
-- Phase 3: tools inventory
-- Phase 2: device frames
-- GUI A+C: wire + 実スクショ主役
-- **Phase 4**: OGP / favicon 雛形
+## Done
+- アセットキット初期構築（icons / badges / flows / tools / frames / GUI wire / OGP）
+- 公開準備: README 整形、個人 inventory を `docs/private/`（gitignore）、パス相対化、MIT
 
-## 運用（継続）
-- 不足ブランド・ツール・ワイヤ記号は都度追加
-- 画面説明は実スクショ + frames + cursors
-- 色付き偽 UI は archive のまま本線に戻さない
+## Ops
+- 不足分は都度追加
+- GUI は A+C（実スクショ + wire）
+- `docs/private/` は公開リポに含めない
 
-## 任意・後回し
-- クラウド公式アイコンの抜き出し（必要時）
-- GitHub remote 公開可否
+## Optional
+- `gh repo create` + public push + プロフィールピン
+- クラウド公式アイコンパック（必要時）

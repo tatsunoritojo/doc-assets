@@ -1,6 +1,6 @@
 # 02 — Webhook 検証 → 転送
 
-**由来:** daybell（LINE → Cloud Functions → GAS）  
+**由来:** Webhook プロキシ構成  
 **アイコン:** `brands/line.svg` `brands/googlecloud.svg` `brands/googleappsscript.svg`
 
 ```mermaid

@@ -1,6 +1,6 @@
 # 03 — Desktop → Sheets → GAS onChange
 
-**由来:** onedrop 出席  
+**由来:** Desktop + スプレッドシート運用  
 **アイコン:** `brands/python.svg` `brands/googlesheets.svg` `brands/googleappsscript.svg` `ui/qr-code.svg`
 
 ```mermaid

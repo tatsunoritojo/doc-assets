@@ -1,6 +1,6 @@
 # 06 — 保護者通知メール
 
-**由来:** onedrop 出席 GAS  
+**由来:** Desktop + スプレッドシート運用 GAS  
 **アイコン:** `brands/gmail.svg` `brands/googleappsscript.svg` `brands/googlesheets.svg`
 
 ```mermaid

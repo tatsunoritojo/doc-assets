@@ -1,10 +1,11 @@
 # catalog
 
-更新 2026-07-23 Phase1+3。
+更新 2026-07-23 · 公開準備済み。
 
-ツール台帳: [docs/tools-inventory.md
 
-フレーム: [frames/](frames/) · [preview-frames.html](preview-frames.html) · [snippets/frames.md](snippets/frames.md)](docs/tools-inventory.md
+ツール台帳: [docs/tools-catalog.md
+
+フレーム: [frames/](frames/) · [preview-frames.html](preview-frames.html) · [snippets/frames.md](snippets/frames.md)](docs/tools-catalog.md
 
 フレーム: [frames/](frames/) · [preview-frames.html](preview-frames.html) · [snippets/frames.md](snippets/frames.md)) · [docs/tools-by-category.md](docs/tools-by-category.md) · [preview-tools.html](preview-tools.html)
 

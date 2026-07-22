@@ -1,6 +1,6 @@
 # 04 — LINE → GAS → Google Calendar
 
-**由来:** daybell_LINE_Bot  
+**由来:** LINE Bot + Calendar  
 **アイコン:** `brands/line.svg` `brands/googleappsscript.svg` `brands/googlecalendar.svg`
 
 ```mermaid

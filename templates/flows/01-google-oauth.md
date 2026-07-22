@@ -1,6 +1,6 @@
 # 01 — Google OAuth ログイン
 
-**由来:** shifree / code-concierge  
+**由来:** SaaS Web アプリの典型  
 **アイコン:** `brands/google.svg` `brands/vercel.svg`
 
 ```mermaid

@@ -15,7 +15,7 @@ flowchart LR
   Portal --> Sheets
 ```
 
-## shifree 系
+## SaaS（Vercel + DB + 外部 API）
 
 ```mermaid
 flowchart LR

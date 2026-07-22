@@ -1,3 +1,5 @@
+このキットを公開利用する場合も、第三者アイコンは各上流ライセンスが優先されます。
+
 # ライセンス
 
 ## Lucide Icons（actors / flow / status / data / infra / ui）
@@ -47,4 +49,4 @@ Simple Icons は1形状1色しか持てず、Google プロダクトのロゴは�
 
 ## 文書
 
-- README / catalog / snippets — 東城立憲。アイコン本体は上記が優先
+- README / catalog / snippets — キット独自文書（MIT）。アイコン本体は上記が優先

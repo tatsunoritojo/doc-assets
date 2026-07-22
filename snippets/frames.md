@@ -21,7 +21,7 @@
   <img src="./shot-desktop.png" alt=""
        style="position:absolute; left:1.25%; top:8.1%; width:97.5%; height:90%;
               object-fit:cover; border-radius:6px; z-index:0;" />
-  <img src="/Users/tatsu/Github/doc-assets/frames/browser-mask.svg" alt=""
+  <img src="frames/browser-mask.svg" alt=""
        style="position:relative; width:100%; z-index:1; pointer-events:none;" />
 </div>
 ```
@@ -32,7 +32,7 @@
   <img src="./shot-mobile.png" alt=""
        style="position:absolute; left:4.6%; top:7.5%; width:90.8%; height:85%;
               object-fit:cover; border-radius:28px; z-index:0;" />
-  <img src="/Users/tatsu/Github/doc-assets/frames/phone-mask.svg" alt=""
+  <img src="frames/phone-mask.svg" alt=""
        style="position:relative; width:100%; z-index:1; pointer-events:none;" />
 </div>
 ```
@@ -50,8 +50,8 @@
 枠だけ見せる（中は "screenshot" プレースホルダ）:
 
 ```markdown
-![Browser](/Users/tatsu/Github/doc-assets/frames/browser.svg)
-![Phone](/Users/tatsu/Github/doc-assets/frames/phone.svg)
+![Browser](frames/browser.svg)
+![Phone](frames/phone.svg)
 ```
 
 GitHub README では HTML 重ねが効かないことが多い → **合成済み PNG を書き出してから**貼る。
@@ -66,7 +66,7 @@ GitHub README では HTML 重ねが効かないことが多い → **合成済�
 
 ```html
 <div style="position:relative; padding:48px; background:#0F172A;">
-  <img src="/Users/tatsu/Github/doc-assets/frames/bg-dark.svg"
+  <img src="frames/bg-dark.svg"
        style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:.9;" alt="" />
   <div style="position:relative; z-index:1;">
     <!-- icons or frame here -->

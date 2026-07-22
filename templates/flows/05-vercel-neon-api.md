@@ -1,6 +1,6 @@
 # 05 — Vercel → Neon → 外部 API
 
-**由来:** shifree  
+**由来:** サーバレス + マネージド DB  
 **アイコン:** `brands/vercel.svg` `brands/neon.svg` `brands/postgresql.svg` `brands/googlecalendar.svg`
 
 ```mermaid

@@ -1,6 +1,6 @@
 # 07 — マルチテナント org 境界
 
-**由来:** shifree / attendance-saas 方針  
+**由来:** サーバレス + マネージド DB / attendance-saas 方針  
 **アイコン:** `actors/building.svg` `actors/users.svg` `data/database.svg`
 
 ```mermaid

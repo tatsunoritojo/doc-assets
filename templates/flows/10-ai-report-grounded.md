@@ -1,6 +1,6 @@
 # 10 — AI レポート生成（スロット接地）
 
-**由来:** onedrop 教員月次レポート  
+**由来:** 接地付き AI レポート  
 **アイコン:** `brands/claude.svg` `brands/anthropic.svg` `brands/googlesheets.svg`
 
 ```mermaid

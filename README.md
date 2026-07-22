@@ -1,153 +1,99 @@
 # doc-assets
 
-README・サービスフロー図・設計メモ向けの**横断アイコンキット**。
+README・サービスフロー図・提案資料向けの**ドキュメント用アセットキット**。
 
-- **本線はカラーブランド**（`icons/brands/`）
-- 単色控えは `icons/brands-mono/`
-- フロー記号（人・矢印・状態）は Lucide 線画（単色）のまま
+アイコンを探す時間を減らし、図とバッジの見た目を揃えるためのローカル素材集です。
 
-`.private-ai-assets`（生成画像）とは別物。
+## 何が入っているか
 
-## Phase 1 追加（2026-07-23）
-
-| パス | 内容 |
-|------|------|
-| `badges/static/` | 静的 badge SVG 40 |
-| `snippets/badges.md` | Shields 動的 + 静的の貼り方・リポ別プリセット |
-| `templates/flows/` | サービスフロー雛形 10 |
-| `tokens/mermaid.md` | Mermaid classDef 共通 |
-| `tokens/colors.json` | 色トークン |
-
-### 最短ルート
-
-1. バッジ: [snippets/badges.md](./snippets/badges.md)
-2. フロー図: [templates/flows/](./templates/flows/)
-3. 色揃え: [tokens/mermaid.md](./tokens/mermaid.md)
-4. ブランド: [preview-brands.html](./preview-brands.html)
-
-
-## 置き場所
-
-```
-~/Github/doc-assets/
-```
-
-ブラウザで一覧: [preview-brands.html](./preview-brands.html)（Finder から開く）
-
-## ディレクトリ
-
-| パス | 用途 |
-|------|------|
-| **`icons/brands/`** | **本線・カラー**（公式 brand color / 多色 Google 等） |
-| `icons/brands-mono/` | 単色 SVG（図の地色に溶かす用） |
-| `icons/actors/` | 人・端末・組織（Lucide・単色） |
-| `icons/flow/` | 矢印・分岐・ループ |
-| `icons/status/` | 成功・失敗・警告・loading |
-| `icons/data/` | DB・ファイル・webhook |
-| `icons/infra/` | サーバ・鍵・ネットワーク |
-| `icons/ui/` | 検索・設定・メール・QR |
-| `snippets/` | Markdown / Mermaid 雛形 |
-
-全件: [catalog.md](./catalog.md) · ライセンス: [LICENSES.md](./LICENSES.md) · 観測: [docs/service-inventory.md](./docs/service-inventory.md)
-
-## AI / エージェント（分離済み）
-
-| 名前 | パス | 備考 |
+| 領域 | パス | 内容 |
 |------|------|------|
-| Claude（星） | `icons/brands/claude.svg` | Simple Icons の starburst。**Anthropic とは別** |
-| Anthropic（A字） | `icons/brands/anthropic.svg` | 社名マーク |
-| Claude Code | `icons/brands/claudecode.svg` | Claude 星の色違い |
-| OpenAI | `icons/brands/openai.svg` | 紫 |
-| ChatGPT | `icons/brands/chatgpt.svg` | 緑（同一マーク・色で区別） |
-| Codex | `icons/brands/codex.svg` | 黒寄り（同一マーク・色で区別） |
-| Grok | `icons/brands/grok.svg` | 図解用カスタム（公式 SI なし） |
-| xAI | `icons/brands/xai.svg` | 図解用カスタム |
-| Gemini | `icons/brands/gemini.svg` / `googlegemini.svg` | |
+| ブランド | `icons/brands/` | カラーロゴ（本線） |
+| 単色ブランド | `icons/brands-mono/` | 地色に溶かす用 |
+| 汎用記号 | `icons/{actors,flow,status,data,infra,ui}/` | Lucide 線画 |
+| バッジ | `badges/static/` | 静的 SVG バッジ |
+| フロー雛形 | `templates/flows/` | Mermaid テンプレ |
+| 色 | `tokens/` | Mermaid classDef / colors |
+| デバイス枠 | `frames/` | browser / phone / tablet + mask |
+| GUI 記号 | `windows/` `chrome/` `cursors/` | **ワイヤのみ**（A+C） |
+| OGP / favicon | `og/` `favicon/` | 1200×630 型紙・favicon 雛形 |
+| スニペット | `snippets/` | コピペ用 Markdown/HTML |
+| プレビュー | `preview-*.html` | ブラウザで一覧 |
 
-## よく使うカラーブランド
+**画面の中身は実スクショが正。** 手描きの色付き UI で本物のフリをしない（旧モックは `archive/`）。
 
-| 用途 | パス |
-|------|------|
-| Vercel | `icons/brands/vercel.svg` |
-| GitHub | `icons/brands/github.svg` |
-| Google（多色） | `icons/brands/google.svg` |
-| Sheets / Drive / Calendar / GAS | `googlesheets` / `googledrive` / `googlecalendar` / `googleappsscript` |
-| LINE | `icons/brands/line.svg` |
-| Neon / PostgreSQL | `neon` / `postgresql` |
-| Cloudflare | `icons/brands/cloudflare.svg` |
-| Obsidian | `icons/brands/obsidian.svg` |
-| X / Discord / Slack | `x` / `discord` / `slack` |
-| Notion / Figma | `notion` / `figma` |
-| Netlify / Firebase / Supabase | 各 `icons/brands/<name>.svg` |
-
-## Markdown
-
-```markdown
-![Claude](/Users/tatsu/Github/doc-assets/icons/brands/claude.svg)
-![ChatGPT](/Users/tatsu/Github/doc-assets/icons/brands/chatgpt.svg)
-![Grok](/Users/tatsu/Github/doc-assets/icons/brands/grok.svg)
-```
-
-プロジェクトへ:
+## すぐ使う
 
 ```bash
-cp -R ~/Github/doc-assets/icons ./docs/assets/icons
+git clone https://github.com/<you>/doc-assets.git
+cd doc-assets
+open preview-brands.html   # またはブラウザで開く
 ```
 
+```markdown
+![Vercel](icons/brands/vercel.svg)
+![Sheets](icons/brands/googlesheets.svg)
+![build](badges/static/build-passing.svg)
+```
 
-## Phase 3 追加（2026-07-23）
+プロジェクトへ取り込む:
 
-| パス | 内容 |
-|------|------|
-| `docs/tools-inventory.md` | PATH / npm / brew 観測台帳（観測と推論を分離） |
-| `docs/tools-by-category.md` | カテゴリ索引 → アイコン名 |
-| `snippets/tools-stack.md` | README 用 Tech 表コピペ |
-| `preview-tools.html` | ツール系アイコン一覧 |
+```bash
+cp -R icons ./docs/assets/icons
+cp -R badges/static ./docs/assets/badges
+```
 
+## プレビュー
 
-## Phase 2 追加（2026-07-23）
+| ファイル | 内容 |
+|----------|------|
+| [preview-brands.html](./preview-brands.html) | ブランドアイコン |
+| [preview-badges.html](./preview-badges.html) | 静的バッジ |
+| [preview-tools.html](./preview-tools.html) | ツール系アイコン |
+| [preview-frames.html](./preview-frames.html) | デバイス枠 |
+| [preview-gui.html](./preview-gui.html) | ワイヤ GUI + カーソル |
+| [preview-og.html](./preview-og.html) | OGP テンプレ |
 
-| パス | 内容 |
-|------|------|
-| `frames/` | browser / phone / tablet / card / bg + mask 版 |
-| `snippets/frames.md` | 重ね方・比率 |
-| `preview-frames.html` | 一覧 + 重ねデモ |
+## ドキュメント
 
+| ファイル | 内容 |
+|----------|------|
+| [catalog.md](./catalog.md) | アセット索引 |
+| [LICENSES.md](./LICENSES.md) | 第三者ライセンス |
+| [docs/tools-by-category.md](./docs/tools-by-category.md) | ツール → アイコン名 |
+| [docs/brand-selection.md](./docs/brand-selection.md) | ブランド選定の考え方 |
+| [snippets/](./snippets/) | badges / frames / OGP / GUI など |
 
-## GUI（A+C 方針）
+## GUI 方針（A+C）
 
-| 本線 | 内容 |
-|------|------|
-| `frames/` | デバイス枠（実スクショと重ねる） |
-| `cursors/` | 操作注釈用ポインタ |
-| `windows/` `chrome/` | **ワイヤ記号のみ**（線・無彩色） |
-| `snippets/gui-chrome.md` | 運用ルール |
-| `archive/gui-filled-20260723/` | 旧・色付き偽 UI（使わない） |
+1. 画面は**実スクショ**  
+2. `frames/*-mask` でデバイス枠  
+3. `cursors/*` で操作位置  
+4. `windows/` `chrome/` は**線画記号**のみ  
 
-**画面の中身は実スクショが正。** 手描きで本物の UI を装わない。
+詳細: [snippets/gui-chrome.md](./snippets/gui-chrome.md)
 
+## OGP
 
+公開 URL を SNS に貼るときの 1200×630 背景。  
+`og/*_clean.svg` にタイトル（必要ならスクショ）を載せて PNG 化。  
 
-## Phase 4（OGP / favicon）
+→ [snippets/og-favicon.md](./snippets/og-favicon.md)
 
-| パス | 内容 |
-|------|------|
-| `og/` | 1200×630 背景（guide + clean） |
-| `favicon/` | SVG 雛形（16/32/180/maskable） |
-| `snippets/og-favicon.md` | meta タグと書き出し |
-| `preview-og.html` | 一覧 |
+## 出典
 
-## 方針
+- **Lucide** — ISC（汎用アイコン）  
+- **Simple Icons** — CC0（ブランド形状）。色は brand hex を fill  
+- 図解用カスタム（Grok / xAI 等）— 記号用。公式ではない  
+- 詳細: [LICENSES.md](./LICENSES.md)
 
-1. **brands = カラーが正**。白黒が欲しいときだけ mono
-2. 実利用 + 周辺推測（AI・SNS・ナレッジ・ホスティング）を収録
-3. Lucide 汎用は単色維持（図がうるさくならない）
-4. 商標: 公開資料では各社ガイドラインに従う。Grok/xAI は SI 非掲載のため**図解用簡易マーク**
+ブランドの商標は各社に帰属します。公開資料では各ガイドラインに従ってください。
 
-## 未収録・代替
+## 追加方針
 
-| 欲しい名前 | 状態 |
-|------------|------|
-| Playwright | `icons/ui/test.svg` |
-| Fanvue 等一部 | SI に無し |
-| Grok / xAI 公式 | カスタム図解マーク（差し替え歓迎） |
+- 足りないブランド・ワイヤは**都度追加**  
+- 色付き「偽 UI」モックは本線に戻さない  
+
+## ライセンス
+
+キット独自の文書・構成・ワイヤ SVG は [MIT](./LICENSE)（第三者アイコンは上記の各ライセンスが優先）。

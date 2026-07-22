@@ -23,7 +23,7 @@
 ```html
 <div style="position:relative; display:inline-block; max-width:560px;">
   <img src="./shot.png" alt="画面" style="width:100%; display:block; border-radius:8px;" />
-  <img src="/Users/tatsu/Github/doc-assets/cursors/pointer.svg"
+  <img src="cursors/pointer.svg"
        width="28" height="28" alt=""
        style="position:absolute; left:58%; top:42%;
               filter:drop-shadow(0 1px 1px rgba(0,0,0,.35)); pointer-events:none;" />
@@ -44,11 +44,11 @@
 ## ワイヤ記号（状態・構造の説明）
 
 ```markdown
-![dialog](/Users/tatsu/Github/doc-assets/windows/dialog.svg)
-![modal](/Users/tatsu/Github/doc-assets/windows/modal.svg)
-![app](/Users/tatsu/Github/doc-assets/windows/window-app.svg)
-![button](/Users/tatsu/Github/doc-assets/chrome/button.svg)
-![focus](/Users/tatsu/Github/doc-assets/chrome/focus.svg)
+![dialog](windows/dialog.svg)
+![modal](windows/modal.svg)
+![app](windows/window-app.svg)
+![button](chrome/button.svg)
+![focus](chrome/focus.svg)
 ```
 
 フロー図のノード横に「ここでモーダル」と添える程度に使う。

@@ -1,6 +1,6 @@
 # 09 — 障害時 Plan B（読み取り / 切り戻し）
 
-**由来:** 障害対応テンプレ + shifree 復旧経験  
+**由来:** 障害対応の定石  
 **アイコン:** `status/error.svg` `status/warn.svg` `infra/shield.svg`
 
 ```mermaid

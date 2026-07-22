@@ -1,6 +1,6 @@
 # 08 — CI → Preview → Production
 
-**由来:** tipper-client / hirodai / shifree 系  
+**由来:** PR preview → production  
 **アイコン:** `brands/github.svg` `brands/vercel.svg` `status/check.svg`
 
 ```mermaid
