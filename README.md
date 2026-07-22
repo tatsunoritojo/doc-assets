@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="readme/on-white-hero.svg" width="520" alt="brand icons on white" />
+  <img src="readme/on-white-hero.png" width="520" alt="brand icons on white" />
 </p>
 
 <p align="center">
@@ -31,9 +31,9 @@
 ## brands
 
 <p align="center">
-  <img src="readme/on-white-row1.svg" width="640" alt="hosting & google" /><br /><br />
-  <img src="readme/on-white-row2.svg" width="720" alt="data social ai" /><br /><br />
-  <img src="readme/on-white-row3.svg" width="560" alt="stack" />
+  <img src="readme/on-white-row1.png" width="640" alt="hosting & google" /><br /><br />
+  <img src="readme/on-white-row2.png" width="720" alt="data social ai" /><br /><br />
+  <img src="readme/on-white-row3.png" width="560" alt="stack" />
 </p>
 
 <p align="center">
@@ -50,7 +50,7 @@
 ## symbols
 
 <p align="center">
-  <img src="readme/on-white-symbols.svg" width="600" alt="flow symbols on white" />
+  <img src="readme/on-white-symbols.png" width="600" alt="flow symbols on white" />
 </p>
 
 ---
@@ -90,7 +90,7 @@
 </p>
 
 <p align="center">
-  <img src="readme/on-white-cursors.svg" width="480" alt="cursors on white" />
+  <img src="readme/on-white-cursors.png" width="480" alt="cursors on white" />
 </p>
 
 <p align="center">
